@@ -3,15 +3,16 @@ library gradient_scaffold;
 import 'package:flutter/material.dart';
 
 class GradientScaffold extends StatelessWidget {
-  GradientScaffold(
-      {this.appBarElevation,
-      this.gradientStops,
-      this.gradientColors,
-      this.appBarTitle,
-      this.gradientEnd,
-      this.gradientBegin,
-      this.body,
-      this.appBarActions});
+  GradientScaffold({
+    @required this.gradientStops,
+    @required this.gradientColors,
+    @required this.gradientEnd,
+    @required this.gradientBegin,
+    @required this.appBarTitle,
+    this.appBarElevation,
+    this.appBarActions,
+    this.body,
+  });
 
   final AlignmentGeometry gradientBegin, gradientEnd;
   final List<Color> gradientColors;
