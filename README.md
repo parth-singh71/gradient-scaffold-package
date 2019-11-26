@@ -16,7 +16,9 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Screenshots
 
-<img src="Screenshot1.png" height="300em" />
+<img src="images/Screenshot_blue.png" height="400em" />
+<img src="images/Screenshot_green.png" height="400em" />
+<img src="images/Screenshot_purple.png" height="400em" />
 
 ## How to use it in your project?
 ### Add Dependency
