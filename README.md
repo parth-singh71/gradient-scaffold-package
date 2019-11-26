@@ -13,6 +13,7 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 # gradient-scaffold-package
-# gradient-scaffold-package
-# gradient-scaffold-package
-# gradient-scaffold-package
+
+## Screenshots
+
+<img src="Screenshot1.png" height="300em" />
