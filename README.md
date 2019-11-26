@@ -33,7 +33,9 @@ dependencies:
  
  ### Install it
 You can install packages from the command line:
+    
     $ flutter pub get
+
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
 
 ### Import it
