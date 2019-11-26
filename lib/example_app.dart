@@ -12,9 +12,12 @@ class _ExampleAppState extends State<ExampleApp> {
     return GradientScaffold(
       gradientBegin: Alignment.topLeft,
       gradientEnd: Alignment.bottomRight,
-      gradientColors: [Color(0xFF159DFF), Color(0xFF157DDF)],
-      gradientStops: [0.0, 0.5],
-      appBarTitle: "Example App",
+      gradientColors: [
+        Color(0xFF159DFF),
+        Color(0xFF157DDF)
+      ], //list of colors you want to use
+      gradientStops: [0.0, 0.5], //list of stops you want to use
+      appBarTitle: "Example App", //title that appears on your appBar
       appBarElevation: 0.0,
       appBarActions: <Widget>[
         Padding(
@@ -26,7 +29,7 @@ class _ExampleAppState extends State<ExampleApp> {
         width: 100.0,
         height: 100.0,
         color: Colors.white,
-      ),
+      ), // this is the scaffold body
     );
   }
 }
